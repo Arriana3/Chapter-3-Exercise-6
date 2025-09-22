@@ -14,14 +14,14 @@ int main()
     const double Sugar = 1.5;
     const double Butter = 1.0;
     const double Flour = 2.75;
-    const int cookiesWanted = 48;
+    const int cookieRecipe = 48;
 
     cout << "Enter the number of cookies you want to make: ";
     cin >> Cookiesneeded;
 
-    double sugarNeeded = (Sugar * Cookiesneeded) / cookiesWanted;
-    double butterNeeded = (Butter * Cookiesneeded) / cookiesWanted;
-    double flourNeeded = (Flour * Cookiesneeded) / cookiesWanted;
+    double sugarNeeded = (Sugar * Cookiesneeded) / cookieRecipe;
+    double butterNeeded = (Butter * Cookiesneeded) / cookieRecipe;
+    double flourNeeded = (Flour * Cookiesneeded) / cookieRecipe;
 
     cout << "To make " << Cookiesneeded << " cookies, you will need:\n";
     cout << sugarNeeded << " cups of sugar\n";
